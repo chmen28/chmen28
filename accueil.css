@@ -1,0 +1,279 @@
+@charset "utf-8";
+body
+{
+	margin:  0 auto;
+	padding: 0;
+	text-align: center; 
+	color:#333;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	background-image:url(images/fond3.jpg);
+	background-size: cover;
+	max-width:800px;
+	
+}
+
+#conteneur {
+	margin: 10px auto; 
+	padding: 0;
+	max-width: 800px;
+	min-height: 510px;
+	text-align: left; 
+	background-color:#CCFDAC;
+	
+	border: 3px solid #006; 
+	
+}
+
+#haut {
+	height: 140px;
+	margin: 0;
+	padding: 0;
+}
+#conteneur #haut h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #69F;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 0.4em;
+	padding: 10px 0px 0px 0px;
+	margin: 0;
+}
+#conteneur #haut h2 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	color:#006;
+	padding:5px 0px 0px 5px;
+	margin:0;
+	letter-spacing: 0.2em;
+}
+#conteneur #haut img {
+	height: 140px;
+	padding: 0px 20px 0px 0px;
+	float: left;
+	
+}
+
+
+#gauche {
+	float: left;
+	max-width: 135px;
+	margin: 0;
+	padding: 10px;
+	height: auto;
+	text-align: center;
+	min-height: 400px;
+}
+.textgauche {
+	text-align: center;
+	font-size: 14px;
+	color: #69F;
+	font-weight: bold;
+}
+.imgauche {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border: 1px solid #69F;
+	background-color: #FFF;
+	text-align: center;
+	width: 100px;
+	color: #999;
+}
+
+#menuhaut {
+	margin: 10px 10px 0px 145px;
+	height: 50px;
+	width: auto;
+	background-color: #CB86F9;
+	padding: 2px 2px 0px 0px;
+	
+}
+
+#menuhaut ul {
+	/*width: 560px;*/
+	display: block;
+	list-style-type: none;
+	padding: 0px 0px 0px 55px;
+	margin: 0 auto;
+	height: 55px;
+	
+}
+#menuhaut ul li {
+	float: left;
+}
+
+#menuhaut ul li a{
+	display: block;
+	width: 100px;
+	height: 25px;
+	margin: 4px;
+	text-align: center;
+	padding: 10px 0px 0px 0px;
+	border: thin solid #69F;
+	/*background-color: #A813A5;*/
+	color: #639;
+	text-decoration: none;
+	border-radius-top:15px;
+}
+#menuhaut ul li a.menuactif {/*associer la classe à la balise complète  :#conteneur.. li a.menuactif */
+	background-color: #69F;
+}
+
+#menuhaut li a:visited {
+	color: #CC3;
+}
+#menuhaut li a:hover {
+	color: #006;
+	background-color: #69F;
+}
+#menuhaut li a:active {
+	color: #69F;
+	text-decoration: none;
+}
+
+
+#conteneur  p {
+	padding: 10px;
+}
+
+#accueil {
+	background-color: #FFF;
+	width: auto;
+	margin: 0px 10px 10px 145px;
+	text-indent: 3em;
+	line-height: 1.5em;
+	padding: 15px 15px 15px 25px;
+	text-align: justify;
+	/*min-height: 400px;*/
+		
+}
+ h2 {
+	color: #006;
+	padding-left: 20px;
+}
+
+.imgcentre {
+	float: right;
+	border: medium solid #69F;
+	padding: 0px;
+	text-align: center;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	width:335px; height:150px;
+}
+
+
+
+.gras {
+	font-weight: bold;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+	#haut {
+	height: 80px;
+	margin: 0;
+	padding: 0;
+	/*background-repeat: repeat-x;*/
+	/*background-position: 50px;*/
+	
+}
+#conteneur #haut img {
+	height: 80px;
+	padding: 0px 10px 0px 0px;
+	float: left;
+	
+}
+ #conteneur #haut h1 {
+    font-size: 30px;
+ font-family: Verdana, Geneva, sans-serif;
+		text-transform: uppercase;
+	color:#69F;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 0.2em;
+	
+	margin: 0;
+  }
+    #conteneur #haut h2 {
+    font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#006;
+	padding:3px;
+	margin:0;
+	
+  }
+
+  #gauche {
+	text-align: center;
+	min-height: 400px;
+	width: 75px;
+	
+	padding: 5px 2px 5px 1px;
+	
+}
+.imgauche {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border: 1px solid #69F;
+	background-color: #FFF;
+	width: 60px;
+	color: #999;
+}
+#menuhaut {
+	margin: 0px 0px 0px 75px;
+	height: 50px;
+	width: auto;
+	background-color: #CB86F9;
+	padding: 2px 2px 0px 0px;
+	
+}
+
+#menuhaut ul {
+	/*width: 560px;*/
+	display: block;
+	list-style-type: none;
+	padding: 5px 0px 0px 25px;
+	margin: 0 auto;
+	height: 55px;
+	
+}
+
+
+  #accueil {
+	background-color: #FFF;
+	width: auto;
+	margin: 5px 2px 0px 75px;
+	text-indent: 3em;
+	line-height: 1.5em;
+	padding: 15px 15px 15px 25px;
+	text-align: justify;
+	/*min-height: 400px;*/
+		
+}
+.imgcentre {
+	float: right;
+	border: medium solid #69F;
+	padding: 0px;
+	text-align: center;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	width:250px; height:100px;
+}
+  p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+ 
+}
