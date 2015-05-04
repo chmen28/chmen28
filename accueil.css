@@ -10,7 +10,7 @@ body
 }
 
 .conteneur {
-	margin: 0 auto; 
+	margin: 10px auto; 
 	max-width: 800px;
 	padding: 0;
 	text-align: left; 
